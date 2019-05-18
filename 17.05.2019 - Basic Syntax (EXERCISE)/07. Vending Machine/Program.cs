@@ -11,7 +11,7 @@ namespace _07._Vending_Machine
 
             while ((input = Console.ReadLine()) != "Start")
             {
-                double coins = double.Parse(Console.ReadLine());
+                double coins = double.Parse(input);
 
                 switch (coins)
                 {
@@ -28,19 +28,14 @@ namespace _07._Vending_Machine
                 }
             }
 
-
             string product;
             while ((product = Console.ReadLine()) != "End")
             {
                 double price = 0;
 
-                if (product == "Coke")
+                if (product == "Nuts")
                 {
-                    price = 1;
-                }
-                else if (product == "Nuts")
-                {
-                    price= 2; 
+                    price = 2;
                 }
                 else if (product == "Water")
                 {
@@ -54,84 +49,27 @@ namespace _07._Vending_Machine
                 {
                     price = 0.8;
                 }
+                else if (product == "Coke")
+                {
+                    price = 1;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid product");
+                    continue;
+                }
+
+                if (totalMoney - price >= 0)
+                {
+                    totalMoney -= price;
+                    Console.WriteLine($"Purchased {product.ToLower()}");
+                }
+                else
+                {
+                    Console.WriteLine("Sorry, not enough money");
+                }
             }
-
-
-            //string input = Console.ReadLine();
-            //double sumCoins = 0;
-
-            //while (input != "Start")
-            //{
-            //    double coin = double.Parse(input);
-
-            //    if (coin != 0.1 && coin != 0.2 && coin != 0.5 && coin != 1.0 && coin != 2.0)
-            //    {
-            //        Console.WriteLine($"Cannot accept {coin}");
-            //    }
-            //    else
-            //    {
-            //        sumCoins += coin;
-            //    }
-            //    input = Console.ReadLine();
-            //}
-
-            //string inputFood = Console.ReadLine();
-
-            //while (inputFood != "End" && sumCoins >= 0)
-            //{
-            //    if (inputFood == "Nuts")
-            //    {
-            //        sumCoins -= 2.0;
-            //        if (sumCoins >= 0)
-            //        {
-            //            Console.WriteLine("Purchased Nuts");
-            //        }
-            //    }
-            //    else if (inputFood == "Water")
-            //    {
-            //        sumCoins -= 0.7;
-            //        if (sumCoins >= 0)
-            //        {
-            //            Console.WriteLine("Purchased Water");
-            //        }
-            //    }
-            //    else if (inputFood == "Crisps")
-            //    {
-            //        sumCoins -= 1.5;
-            //        if (sumCoins >= 0)
-            //        {
-            //            Console.WriteLine("Purchased Crisps");
-            //        }
-            //    }
-            //    else if (inputFood == "Soda")
-            //    {
-            //        sumCoins -= 0.8;
-            //        if (sumCoins >= 0)
-            //        {
-            //            Console.WriteLine("Purchased Soda");
-            //        }
-            //    }
-            //    else if (inputFood == "Coke")
-            //    {
-            //        sumCoins -= 1;
-            //        if (sumCoins >= 0)
-            //        {
-            //            Console.WriteLine("Purchased Coke");
-            //        }
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Invalid product");
-            //    }
-
-            //    inputFood = Console.ReadLine();
-            //}
-
-            //if (sumCoins < 0)
-            //{
-            //    Console.WriteLine("Sorry, not enough money");
-            //    Console.WriteLine("Change: {0:f2}", Math.Abs(sumCoins));
-            //}
+            Console.WriteLine($"Change: {totalMoney:f2}");
         }
     }
 }
