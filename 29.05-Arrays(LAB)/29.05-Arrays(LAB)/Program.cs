@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _29._05_Arrays_LAB_
 {
@@ -6,7 +7,14 @@ namespace _29._05_Arrays_LAB_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] input = Console.ReadLine().Split();
+
+            foreach (string text in input.Reverse())
+            {
+                Console.WriteLine(text); 
+            }
+
+            Console.WriteLine();
         }
     }
 }
