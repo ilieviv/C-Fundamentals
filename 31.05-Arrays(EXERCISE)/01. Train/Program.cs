@@ -18,6 +18,7 @@ namespace _01._Train
             }
             Console.WriteLine(string.Join(" ", numbers));
             Console.WriteLine(sum);
+            Console.WriteLine(numbers.Sum());
             //int sum = 0;
 
             //string[] input = new string[n];
