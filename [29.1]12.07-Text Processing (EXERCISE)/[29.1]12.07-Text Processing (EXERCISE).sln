@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{8E84FE69-CC01-45BB-AB1A-05103F5DBC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{8E84FE69-CC01-45BB-AB1A-05103F5DBC08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{05F27FD8-93C0-40A5-AA67-253883951023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{05F27FD8-93C0-40A5-AA67-253883951023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{8643D9EB-3B9B-4F5C-8966-AB0D5124C317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{8643D9EB-3B9B-4F5C-8966-AB0D5124C317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{37823FF1-5CCC-45EE-BD9F-6F487B1CD509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{37823FF1-5CCC-45EE-BD9F-6F487B1CD509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Multiply Big Number", "05. Multiply Big Number\05. Multiply Big Number.csproj", "{F1C998A9-46AD-43B6-A1D0-9D26618A3BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Multiply Big Number", "05. Multiply Big Number\05. Multiply Big Number.csproj", "{F1C998A9-46AD-43B6-A1D0-9D26618A3BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Replace Repeating Chars", "06. Replace Repeating Chars\06. Replace Repeating Chars.csproj", "{D479AC4B-9E0C-4E38-BE4A-CEDC728A616C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. String Explosion", "07. String Explosion\07. String Explosion.csproj", "{27C4F25A-F244-4DE7-A67F-AB55F0AAECA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Letters Change Numbers", "08. Letters Change Numbers\08. Letters Change Numbers.csproj", "{22C244B6-286B-46C5-A3A9-E826E29E6775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{F1C998A9-46AD-43B6-A1D0-9D26618A3BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C998A9-46AD-43B6-A1D0-9D26618A3BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C998A9-46AD-43B6-A1D0-9D26618A3BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D479AC4B-9E0C-4E38-BE4A-CEDC728A616C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D479AC4B-9E0C-4E38-BE4A-CEDC728A616C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D479AC4B-9E0C-4E38-BE4A-CEDC728A616C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D479AC4B-9E0C-4E38-BE4A-CEDC728A616C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C4F25A-F244-4DE7-A67F-AB55F0AAECA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C4F25A-F244-4DE7-A67F-AB55F0AAECA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C4F25A-F244-4DE7-A67F-AB55F0AAECA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C4F25A-F244-4DE7-A67F-AB55F0AAECA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C244B6-286B-46C5-A3A9-E826E29E6775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C244B6-286B-46C5-A3A9-E826E29E6775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C244B6-286B-46C5-A3A9-E826E29E6775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C244B6-286B-46C5-A3A9-E826E29E6775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
