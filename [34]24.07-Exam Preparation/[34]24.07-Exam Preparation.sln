@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Concert", "01. Concert\01. Concert.csproj", "{395D3CE1-3ED5-48AA-9ABA-60AE23168E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Song Encryption", "02. Song Encryption\02. Song Encryption.csproj", "{5015A6DC-9603-4A19-993D-755339A6B613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Song Encryption", "02. Song Encryption\02. Song Encryption.csproj", "{5015A6DC-9603-4A19-993D-755339A6B613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. The Isle of Man TT Race", "03. The Isle of Man TT Race\03. The Isle of Man TT Race.csproj", "{6DA3C38A-35A1-49C1-953B-592AEB98E2F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5015A6DC-9603-4A19-993D-755339A6B613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5015A6DC-9603-4A19-993D-755339A6B613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5015A6DC-9603-4A19-993D-755339A6B613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA3C38A-35A1-49C1-953B-592AEB98E2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA3C38A-35A1-49C1-953B-592AEB98E2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA3C38A-35A1-49C1-953B-592AEB98E2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA3C38A-35A1-49C1-953B-592AEB98E2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
