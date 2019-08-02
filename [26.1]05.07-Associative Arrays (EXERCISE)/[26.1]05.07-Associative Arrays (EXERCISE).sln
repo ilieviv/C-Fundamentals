@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Legendary Farming", "03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Orders", "04. Orders\04. Orders.csproj", "{45A5F8B4-EEF7-4D59-ACDA-58DE8EB99DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SoftUni Parking", "05. SoftUni Parking\05. SoftUni Parking.csproj", "{3DE6BF32-47F0-48E8-9609-ACFA1DEE0188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. SoftUni Parking", "05. SoftUni Parking\05. SoftUni Parking.csproj", "{3DE6BF32-47F0-48E8-9609-ACFA1DEE0188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Courses", "06. Courses\06. Courses.csproj", "{CE40FB17-F652-4B77-80E0-F98076D89E4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Courses", "06. Courses\06. Courses.csproj", "{CE40FB17-F652-4B77-80E0-F98076D89E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Student Academy", "07. Student Academy\07. Student Academy.csproj", "{01D601E6-2849-4884-8895-73E254936458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Student Academy", "07. Student Academy\07. Student Academy.csproj", "{01D601E6-2849-4884-8895-73E254936458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Company Users", "08. Company Users\08. Company Users.csproj", "{69AD8942-B1EB-4736-8FEE-C349C5210023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Company Users", "08. Company Users\08. Company Users.csproj", "{69AD8942-B1EB-4736-8FEE-C349C5210023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ForceBook", "09. ForceBook\09. ForceBook.csproj", "{63F4A8D2-9E10-4D8A-83B9-FA92F0A9C8E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. ForceBook", "09. ForceBook\09. ForceBook.csproj", "{63F4A8D2-9E10-4D8A-83B9-FA92F0A9C8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. SoftUni Exam Results", "10. SoftUni Exam Results\10. SoftUni Exam Results.csproj", "{026C0AD7-F88E-4416-966C-C49F1A3D8AB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{63F4A8D2-9E10-4D8A-83B9-FA92F0A9C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F4A8D2-9E10-4D8A-83B9-FA92F0A9C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F4A8D2-9E10-4D8A-83B9-FA92F0A9C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026C0AD7-F88E-4416-966C-C49F1A3D8AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026C0AD7-F88E-4416-966C-C49F1A3D8AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026C0AD7-F88E-4416-966C-C49F1A3D8AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026C0AD7-F88E-4416-966C-C49F1A3D8AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
